@@ -1,0 +1,4 @@
+<div *ngIf="isOpen" class="overlay" (click)="close()">
+    <button class="close-btn" (click)="close()">&times;</button>
+    <img [src]="imageSrc" alt="Fullscreen Image" />
+  </div>

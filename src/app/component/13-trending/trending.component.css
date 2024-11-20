@@ -1,0 +1,20 @@
+/* Styling for the Previous and Next buttons */
+.custom-prev, .custom-next {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add some padding to make it rectangular */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Optional: slight rounding on corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline-block;
+    text-transform: uppercase; /* Make text uppercase */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  /* Hover effect for the buttons */
+  .custom-prev:hover, .custom-next:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

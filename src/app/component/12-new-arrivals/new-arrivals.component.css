@@ -1,0 +1,45 @@
+.item {
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .owl-nav button {
+    background: transparent;
+    border: none;
+    color: #000; /* Adjust color as needed */
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+  }
+  
+  .owl-nav button:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1); /* Light color for the spinner */
+    border-left-color: #007bff; /* Primary color for the spinner */
+    border-radius: 50%;
+    width: 50px; /* Spinner width */
+    height: 50px; /* Spinner height */
+    animation: spin 1s linear infinite; /* Spin animation */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
