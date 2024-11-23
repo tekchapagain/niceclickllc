@@ -1,5 +1,5 @@
 export const environment = {
     production : false,
-    apiUrl : 'http://127.0.0.1:8000/api/v1/',
+    apiUrl : 'https://django-api-ebon.vercel.app/api/v1/',
     cdnBaseUrl: 'https://niceclickllc.sirv.com/niceclickllc/',
 }
