@@ -1,4 +1,4 @@
 export const environment = {
-    production : false,
-    apiUrl : 'http://localhost:8000/api/v1/'
+    production : true,
+    apiUrl : 'https://django-api-ebon.vercel.app/api/v1/'
 }
